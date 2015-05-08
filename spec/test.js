@@ -1,3 +1,9 @@
+
+if ( require !== undefined){
+  var expect = require('chai').expect;
+  var rezi = require('../index.js');
+}
+
 describe("rezi()", function() {
 
   it('exists', function() {
